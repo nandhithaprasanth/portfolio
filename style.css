@@ -1,0 +1,34 @@
+.box{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    background-color: chartreuse;
+    height: 250px;
+    width: 250px;
+}
+.img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.txt{
+    color: black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+button{
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
